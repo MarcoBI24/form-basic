@@ -11,9 +11,22 @@
                 <img src="user.png" class="img">
             </div>
             <div class="form">
-                <input type="text"  class="name">
-                <input type="text" class="apellido">
-                <input type="number" class="number">
+                <div class="title">
+                    <p>Rellena tus datos</p>
+                </div>
+                <input type="text"  class="name" placeholder="Nombre">
+                <input type="text" class="apellido" placeholder="Apellido">
+                <div class="numberCountry">
+                    <select name="Número de país" title="NumeroOfCountry" >
+                        <option>+51</option>
+                        <option>+52</option>
+                        <option>+53</option>
+                        <option>+54</option>
+                        <option>+55</option>
+                    </select>
+                    <input type="number" 
+                    step="1" minlength="9" maxlength="16"  class="number"placeholder="Número" required>
+                </div>
                 <button class="btn">Enviar</button>
             </div>
 
